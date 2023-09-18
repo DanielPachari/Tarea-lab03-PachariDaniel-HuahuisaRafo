@@ -1,0 +1,23 @@
+<!-- Tu página HTML principal -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Proyecto de Ventas</title>
+</head>
+<body>
+    <h1>Mi Proyecto de Ventas</h1>
+    
+    <ul>
+        <li><a href="{% url 'agregar_cliente' %}">Agregar Cliente</a></li>
+        <li><a href="{% url 'agregar_proveedor' %}">Agregar Proveedor</a></li>
+        <li><a href="{% url 'agregar_detalle_venta' %}">Agregar Detalle Venta</a></li>
+        <li><a href="{% url 'agregar_venta' %}">Agregar Venta</a></li>
+        <li><a href="{% url 'agregar_producto' %}">Agregar Producto</a></li>
+        <li><a href="{% url 'lista_proveedores' %}">Lista Proveedores</a></li>
+        <li><a href="{% url 'lista_clientes' %}">Lista Clientes</a></li> 
+    </ul>
+    
+</body>
+</html>
+

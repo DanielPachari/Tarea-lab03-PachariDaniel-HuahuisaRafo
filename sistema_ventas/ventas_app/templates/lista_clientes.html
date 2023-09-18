@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Clientes</title>
+</head>
+<body>
+    <h1>Lista de Clientes</h1>
+    <ul>
+        {% for cliente in clientes %}
+            <li>{{ cliente.codigo }} - {{ cliente.nombre }} - {{ cliente.telefonos }}- {{ cliente.direccion_id}}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
